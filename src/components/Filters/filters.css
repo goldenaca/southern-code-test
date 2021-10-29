@@ -1,0 +1,77 @@
+.filter-container {
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+
+.filter-text {
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.earth-date {
+  border: 1px solid rgb(210, 210, 210);
+  height: 40px;
+  padding-left: 10px;
+  width: 156px;
+  cursor: pointer;
+}
+
+.sol-date {
+  cursor: pointer;
+  border: 1px solid rgb(210, 210, 210);
+  height: 40px;
+  padding-left: 10px;
+  width: 156px;
+}
+
+.save-btn {
+  height: 40px;
+  background: rgb(246, 240, 240);
+  border: 1px solid rgb(210, 210, 210);
+  padding: 0px 15px;
+  transition: 0.3s;
+  border-radius: 100px;
+}
+.save-btn:hover {
+  background: rgb(120, 100, 100);
+  transition: 0.3s;
+  color: white;
+}
+
+.memory-container {
+  border: 1px solid rgb(210, 210, 210);
+  padding: 5px;
+  overflow: auto;
+  height: 96px;
+}
+
+.memory-item {
+  color: rgb(140, 120, 120);
+  width: 280px;
+}
+
+.memory-btn {
+  font-weight: bold;
+  cursor: pointer;
+}
+.memory-btn:hover {
+  color: black;
+}
+.memory-info {
+  cursor: pointer;
+}
+.memory-info:hover {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+  .individual-filter {
+    margin-bottom: 60px;
+  }
+}
